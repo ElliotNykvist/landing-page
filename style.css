@@ -114,11 +114,22 @@ button {
     justify-content: center;
     align-items: center;
     font-size: 36px;
+    padding: 40px;
+    font-weight: 700;
     
 
  }
 
+ .text {
+    display: flex;
+    flex-direction: column;
+ }
 .images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 30px;
+
 
 
 }
@@ -127,5 +138,26 @@ img, p {
     max-width: 200px;
 
 
+
 }
 
+img {
+    border-radius: 30px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.quotes, .person {
+    color: #1F2937;
+    max-width: 600px;
+}
+
+.person {
+    justify
+}
